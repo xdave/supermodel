@@ -578,7 +578,7 @@
       return Backbone.Model.apply(this, arguments);
     },
 
-    initialize: function(arguments, options) {
+    initialize: function(args, options) {
       // Use `"cid"` for retrieving models by `attributes.cid`.
       this.set(this.cidAttribute, this.cid);
 
